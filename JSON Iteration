@@ -1,0 +1,46 @@
+//For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+var obj=[
+    {person:"Sindhusha",
+    age:"26",
+    company:"Guvi"
+    },
+    {person:"Dilip",
+    age:"31",
+    company:"Guvi Geek"
+    },
+    {person:"Anusha",
+    age:"22",
+    company:"Guvi Geek Network"
+    }
+    ]
+    //for Loop Implementation
+
+    // for(var i=0; i<obj.length; i++)
+    // {
+    //     console.log(obj[i])
+    // }
+
+    //forEach Loop Implementation
+
+    // obj.forEach(((obj)=>{
+    //     console.log(obj)
+    // }))
+
+    // for In Loop Implementation
+
+    // for(var index in obj){
+    //     console.log(obj[index])
+    // }
+
+    //for OF Loop Implementation
+
+    // for(var Index in obj){
+    //     console.log(obj[Index])
+    // }
+
+Output:
+
+{ person: 'Sindhusha', age: '26', company: 'Guvi' }
+{ person: 'Dilip', age: '31', company: 'Guvi Geek' }
+{ person: 'Anusha', age: '22', company: 'Guvi Geek Network' }
