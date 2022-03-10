@@ -1,0 +1,43 @@
+ //2. Create your own resume data in JSON format
+// let data=[
+//     {
+//         Name: "Sindhusha Wupadratsa",
+//         Age: 26,
+//         Qualification: {
+//             Group: "B.tech",
+//             Branch:"Electronics and Communication"
+//     },
+//         Occupation: {
+//             Company: "Wipro",
+//             Designation:"Access Admin",
+//             Stream:"Technical Support",
+//             ProjectName:"Global Access Administration"
+//         } ,
+//         Hobbies:"Listening Music, Cooking and Travelling",
+//         Contact: +91123456789,
+//         Email: "Sindhusha95@guvi.com"
+
+//     }
+// ]
+
+// {
+//  console.log(data);
+// }
+
+
+OUTPUT:
+
+{
+  Name: 'Sindhusha Wupadratsa',
+  Age: 26,
+  Qualification: { Group: 'B.tech', Branch: 'Electronics and Communication' },
+  Occupation: {
+    Company: 'Wipro',
+    Designation: 'Access Admin',
+    Stream: 'Technical Support',
+    ProjectName: 'Global Access Administration'
+  },
+  Hobbies: 'Listening Music, Cooking and Travelling',
+  Contact: 91123456789,
+  Email: 'Sindhusha95@guvi.com'
+}
